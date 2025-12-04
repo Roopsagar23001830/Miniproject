@@ -4,36 +4,36 @@ A smart, real-time GPS-based solution that tracks and monitors college buses thr
 
 ## 🌟 Overview
 This project uses GPS + cloud technologies to:
-Track bus location in real-time
-Show bus routes & stop-wise ETA
-Provide a web dashboard for students & admins
-Send notifications for delays, breakdowns, or route changes
-Maintain student & bus data with secure authentication
-No manual tracking needed — just live updates from the bus to the screen.
+-Track bus location in real-time
+-Show bus routes & stop-wise ETA
+-Provide a web dashboard for students & admins
+-Send notifications for delays, breakdowns, or route changes
+-Maintain student & bus data with secure authentication
+-No manual tracking needed — just live updates from the bus to the screen.
 
 ## 🧠 Features
-Live map with bus markers
-ETA calculation for each stop
-Student login & assigned bus view
-Admin panel for bus, route & student management
-Notification & feedback management
-Firebase real-time location updates
-Secure DB for student transport records
+-Live map with bus markers
+-ETA calculation for each stop
+-Student login & assigned bus view
+-Admin panel for bus, route & student management
+-Notification & feedback management
+-Firebase real-time location updates
+-Secure DB for student transport records
 
 ## 🔧 Tech Stack
 ### Backend
- FastAPI / Flask
- Python
- SQLAlchemy ORM
- Firebase Realtime Database
- JWT Authentication (optional)
+ *FastAPI / Flask
+ *Python
+ *SQLAlchemy ORM
+ *Firebase Realtime Database
+ *JWT Authentication (optional)
 ### Frontend
- Streamlit (Admin Panel)
- React + Vite + TailwindCSS (Student/Parent UI)
- Google Maps API / LeafletJS
+ *Streamlit (Admin Panel)
+ *React + Vite + TailwindCSS (Student/Parent UI)
+ *Google Maps API / LeafletJS
 ### GPS + Realtime Layer
- IoT/GPS Device or Simulation Script
- Firebase sync for instant map update
+ *IoT/GPS Device or Simulation Script
+ *Firebase sync for instant map update
 
 ## 🚀 Getting Started
 ### 1️⃣ Clone the Repository
@@ -170,9 +170,9 @@ real-time-bus-tracking-system/
 ```
 
 ### 🛣️ Roadmap
- RFID student attendance
- Push notifications (SMS/WhatsApp)
- Over-speeding and route deviation alerts
- AI-based ETA prediction
- Native Mobile App (Flutter)
+ -RFID student attendance
+ -Push notifications (SMS/WhatsApp)
+ -Over-speeding and route deviation alerts
+ -AI-based ETA prediction
+ -Native Mobile App (Flutter)
 
