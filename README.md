@@ -65,7 +65,9 @@ from database import init_db
 init_db()
 ```
 ### 5️⃣ Run Backend API
-```uvicorn main_auth:app --reload```
+```
+uvicorn main_auth:app --reload
+```
 Runs at:
 ```
 http://127.0.0.1:8000
@@ -98,9 +100,10 @@ while True:
 ```
 
 ### 🌐 Frontend (React Dashboard)
-``` cd frontend
-    npm install
-    npm run dev
+```
+cd frontend
+npm install
+npm run dev
 ```
 
 Runs at:
@@ -115,19 +118,23 @@ http://localhost:5173/
 
 ### 📡 API Endpoints
 #### Authentication
-``` POST /api/auth/login
+```
+POST /api/auth/login
 ```
 #### Bus Routes & Tracking
-``` GET  /api/buses
-    GET  /api/buses/{bus_number}
-    GET  /api/buses/{bus_number}/location
-    POST /api/buses/{bus_number}/location   # GPS device update
+```
+ GET  /api/buses
+ GET  /api/buses/{bus_number}
+ GET  /api/buses/{bus_number}/location
+ POST /api/buses/{bus_number}/location   # GPS device update
 ```
 #### Student Transport Data
-``` GET /api/students/{id}/assigned-bus
+```
+GET /api/students/{id}/assigned-bus
 ```
 #### Feedback Management
-```POST /api/feedback
+```
+   POST /api/feedback
    GET  /api/feedback
 ```
 #### Sample location update payload:
