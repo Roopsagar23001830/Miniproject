@@ -32,8 +32,8 @@ This project uses GPS + cloud technologies to:
  * React + Vite + TailwindCSS (Student/Parent UI)
  * Google Maps API / LeafletJS
 ### GPS + Realtime Layer
- *IoT/GPS Device or Simulation Script
- *Firebase sync for instant map update
+ * IoT/GPS Device or Simulation Script
+ * Firebase sync for instant map update
 
 ## 🚀 Getting Started
 ### 1️⃣ Clone the Repository
@@ -45,13 +45,13 @@ cd real-time-bus-tracking
 ### 2️⃣ Install Dependencies
 ``` pip install -r requirements.txt ```
 Example requirements:
-fastapi
-uvicorn
-sqlalchemy
-firebase-admin
-python-dotenv
-streamlit
-pydantic
+* fastapi
+* uvicorn
+* sqlalchemy
+* firebase-admin
+* python-dotenv
+* streamlit
+* pydantic
 
 ### 3️⃣ Setup Environment Variables
 ``` Create .env: ```
@@ -111,10 +111,10 @@ Runs at:
 http://localhost:5173/
 ```
 #### User View:
- Live Map + Bus Tracking
- ETA + Stop Information
- Notifications
- Feedback Form
+ - Live Map + Bus Tracking
+ - ETA + Stop Information
+ - Notifications
+ - Feedback Form
 
 ### 📡 API Endpoints
 #### Authentication
@@ -176,3 +176,28 @@ real-time-bus-tracking-system/
  - AI-based ETA prediction
  - Native Mobile App (Flutter)
 
+### 📊 Output Screenshots
+
+🔹 Homepage
+
+<img width="1919" height="902" alt="Screenshot 2025-11-05 211856" src="https://github.com/user-attachments/assets/fb7c871e-99d9-4672-b5cf-9ea956188b01" />
+
+
+🔹 Admin Dashboard
+
+<img width="1919" height="906" alt="Screenshot 2025-11-05 211808" src="https://github.com/user-attachments/assets/889f0943-bf7d-412b-80dc-1d486b5c50b2" />
+
+
+🔹 Student / Parent Live Map View
+
+<img width="1907" height="724" alt="Screenshot 2025-11-05 212004" src="https://github.com/user-attachments/assets/4903231d-12eb-4e92-bdf4-4ae0f8f8b1c6" />
+
+  
+🔹 Buses List Page
+
+<img width="1919" height="898" alt="Screenshot 2025-11-05 211918" src="https://github.com/user-attachments/assets/baaed630-2eb3-429f-a3e6-30fe2eb1bce9" />
+
+
+🔹 Feedback Management Page
+
+<img width="1919" height="909" alt="Screenshot 2025-11-05 212301" src="https://github.com/user-attachments/assets/834a6f80-ebfa-45d9-bac7-1ea7b5b84110" />
