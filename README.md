@@ -214,7 +214,7 @@ real-time-bus-tracking-system/
 <img width="1919" height="909" alt="Screenshot 2025-11-05 212301" src="https://github.com/user-attachments/assets/834a6f80-ebfa-45d9-bac7-1ea7b5b84110" />
 
 
-### 🏆 Results
+## 🏆 Results
 
 * Successfully implemented a fully functional real-time bus tracking system
 * Buses can be tracked accurately with continuously updating GPS positions
@@ -226,7 +226,7 @@ real-time-bus-tracking-system/
 * System works even with simulated GPS devices for demo and testing
 * Demonstrated improved transportation monitoring efficiency during evaluation
 
-### 🚀 Impact
+## 🚀 Impact
 
 - This project provides real-world benefits that directly improve safety and convenience:
 - Enhanced Student Safety
@@ -242,7 +242,7 @@ real-time-bus-tracking-system/
 - Scalable for Smart Campus Mobility
 - Can expand to multiple routes, attendance tracking, energy monitoring, etc.
 
-### 📚 References
+## 📚 References
 
 1. Smith, J., et al., “Real-time GPS tracking for school bus safety enhancement,” IEEE Transactions on Intelligent Transportation Systems, vol. 14, no. 3, pp. 1234–1245, 2013. 
 
