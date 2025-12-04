@@ -1,7 +1,9 @@
-# 🚌 Real-Time Bus Tracking Management System (SEC)
+# 🚌 A Real-Time Bus Tracking Management System (SEC)
+
 A smart, real-time GPS-based solution that tracks and monitors college buses through a live dashboard. This system enhances student safety and transport efficiency using real-time bus location updates, alerts, and route monitoring.
 
 ## 🌟 Overview
+
 This project uses GPS + cloud technologies to:
 - Track bus location in real-time
 - Show bus routes & stop-wise ETA
@@ -11,6 +13,7 @@ This project uses GPS + cloud technologies to:
 - No manual tracking needed — just live updates from the bus to the screen.
 
 ## 🧠 Features
+
 - Live map with bus markers
 - ETA calculation for each stop
 - Student login & assigned bus view
@@ -20,21 +23,25 @@ This project uses GPS + cloud technologies to:
 - Secure DB for student transport records
 
 ## 🔧 Tech Stack
+
 ### Backend
  * FastAPI / Flask
  * Python
  * SQLAlchemy ORM
  * Firebase Realtime Database
  * JWT Authentication (optional)
+
 ### Frontend
  * Streamlit (Admin Panel)
  * React + Vite + TailwindCSS (Student/Parent UI)
  * Google Maps API / LeafletJS
+
 ### GPS + Realtime Layer
  * IoT/GPS Device or Simulation Script
  * Firebase sync for instant map update
 
 ## 🚀 Getting Started
+
 ### 1️⃣ Clone the Repository
 ````git clone https://github.com/yourusername/real-time-bus-tracking.git
 cd real-time-bus-tracking
@@ -63,6 +70,7 @@ FIREBASE_DATABASE_URL=https://your-app.firebaseio.com
 from database import init_db
 init_db()
 ```
+
 ### 5️⃣ Run Backend API
 ```
 uvicorn main_auth:app --reload
@@ -71,11 +79,13 @@ Runs at:
 ```
 http://127.0.0.1:8000
 ```
+
 ### 🎛️ Admin Panel (Streamlit)
 Runs at:
 ```
 http://localhost:8501
 ```
+
 #### Allows managing:
 - Students
 - Buses
@@ -116,10 +126,12 @@ http://localhost:5173/
  - Feedback Form
 
 ### 📡 API Endpoints
+
 #### Authentication
 ```
 POST /api/auth/login
 ```
+
 #### Bus Routes & Tracking
 ```
  GET  /api/buses
@@ -127,15 +139,18 @@ POST /api/auth/login
  GET  /api/buses/{bus_number}/location
  POST /api/buses/{bus_number}/location   # GPS device update
 ```
+
 #### Student Transport Data
 ```
 GET /api/students/{id}/assigned-bus
 ```
+
 #### Feedback Management
 ```
    POST /api/feedback
    GET  /api/feedback
 ```
+
 #### Sample location update payload:
 ```json
 {
@@ -145,6 +160,7 @@ GET /api/students/{id}/assigned-bus
   "timestamp": 1735902301.12
 }
 ```
+
 ### 🗂️ Folder Structure
 ```pgsql
 real-time-bus-tracking-system/
@@ -179,34 +195,20 @@ real-time-bus-tracking-system/
 
 ### 🔹 Homepage
 
-
 <img width="1919" height="902" alt="Screenshot 2025-11-05 211856" src="https://github.com/user-attachments/assets/fb7c871e-99d9-4672-b5cf-9ea956188b01" />
-
-
 
 ### 🔹 Admin Dashboard
 
-
 <img width="1919" height="906" alt="Screenshot 2025-11-05 211808" src="https://github.com/user-attachments/assets/889f0943-bf7d-412b-80dc-1d486b5c50b2" />
-
-
 
 ### 🔹 Student / Parent Live Map View
 
-
 <img width="1907" height="724" alt="Screenshot 2025-11-05 212004" src="https://github.com/user-attachments/assets/4903231d-12eb-4e92-bdf4-4ae0f8f8b1c6" />
 
-
-  
 ### 🔹 Buses List Page
-
 
 <img width="1919" height="898" alt="Screenshot 2025-11-05 211918" src="https://github.com/user-attachments/assets/baaed630-2eb3-429f-a3e6-30fe2eb1bce9" />
 
-
-
 ### 🔹 Feedback Management Page
 
-
 <img width="1919" height="909" alt="Screenshot 2025-11-05 212301" src="https://github.com/user-attachments/assets/834a6f80-ebfa-45d9-bac7-1ea7b5b84110" />
-
