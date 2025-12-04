@@ -178,26 +178,36 @@ real-time-bus-tracking-system/
 
 ### 📊 Output Screenshots
 
-🔹 Homepage
+#### 🔹 Homepage
+
 
 <img width="1919" height="902" alt="Screenshot 2025-11-05 211856" src="https://github.com/user-attachments/assets/fb7c871e-99d9-4672-b5cf-9ea956188b01" />
 
 
-🔹 Admin Dashboard
+
+#### 🔹 Admin Dashboard
+
 
 <img width="1919" height="906" alt="Screenshot 2025-11-05 211808" src="https://github.com/user-attachments/assets/889f0943-bf7d-412b-80dc-1d486b5c50b2" />
 
 
-🔹 Student / Parent Live Map View
+
+#### 🔹 Student / Parent Live Map View
+
 
 <img width="1907" height="724" alt="Screenshot 2025-11-05 212004" src="https://github.com/user-attachments/assets/4903231d-12eb-4e92-bdf4-4ae0f8f8b1c6" />
 
+
   
-🔹 Buses List Page
+#### 🔹 Buses List Page
+
 
 <img width="1919" height="898" alt="Screenshot 2025-11-05 211918" src="https://github.com/user-attachments/assets/baaed630-2eb3-429f-a3e6-30fe2eb1bce9" />
 
 
-🔹 Feedback Management Page
+
+#### 🔹 Feedback Management Page
+
 
 <img width="1919" height="909" alt="Screenshot 2025-11-05 212301" src="https://github.com/user-attachments/assets/834a6f80-ebfa-45d9-bac7-1ea7b5b84110" />
+
